@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <article data-testid="test-profile-card" class="profile-card">
+        <figure class="avatar-container">
+            <img 
+                data-testid="test-user-avatar" 
+                src="images/avatar.jpeg" 
+                alt="User profile avatar"
+                class="avatar"
+            >
+        </figure>
+        
+        <div class="content">
+            <header>
+                <h2 data-testid="test-user-name" class="name">Musa Muhammad Khalid</h2>
+                <p data-testid="test-user-time" class="time" id="timestamp"></p>
+            </header>
+            
+            <p data-testid="test-user-bio" class="bio">
+                Full-stack developer passionate about creating accessible and user-friendly web experiences. 
+                Always learning new technologies and sharing knowledge with the community.
+            </p>
+            
+            <nav data-testid="test-user-social-links" class="social-links">
+                <a 
+                    href="https://twitter.com/mkalbani96" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    data-testid="test-user-social-twitter"
+                >
+                    Twitter
+                </a>
+                <a 
+                    href="https://github.com/mkalbani" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    data-testid="test-user-social-github"
+                >
+                    GitHub
+                </a>
+                <a 
+                    href="https://www.linkedin.com/in/musa-khalid-765646248" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    data-testid="test-user-social-linkedin"
+                >
+                    LinkedIn
+                </a>
+            </nav>
+            
+            <section class="lists-container">
+                <div>
+                    <h3>Hobbies</h3>
+                    <ul data-testid="test-user-hobbies" class="list">
+                        <li>Open-source collaboration</li>
+                        <li>Long walks with deep thoughts</li>
+                        <li>Chess and strategy puzzles</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3>Dislikes</h3>
+                    <ul data-testid="test-user-dislikes" class="list">
+                        <li>Superficial conversations</li>
+                        <li>Noise during deep work</li>
+                        <li>Creative stagnation</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </article>
+    
+    <script src="script.js"></script>
+</body>
+</html>
