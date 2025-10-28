@@ -12,7 +12,7 @@ A semantic, accessible, and responsive profile card built with vanilla HTML, CSS
 
 ## Live Demo
 
-[View Live Demo]()
+[View Live Demo](https://mkalbani.github.io/hng-stage0-frontend/)
 
 ## Local Development
 
